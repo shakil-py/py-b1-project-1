@@ -1,6 +1,5 @@
-
-a = int(input("Please input total members : "))
-for i in range(a):
-    Bordername = input("insert student name : ")
-    Border1["name"] = Bordername
-    mill
+member=int(input("Please Enter amount of Members : "))
+food=input("Please Enter this week food list: ").split(" ")
+fd=list(food)
+food_cost=dict()
+print(fd)
