@@ -39,9 +39,7 @@ alart = alart()
 
 
 def mainapp():
-    print(millrate)
-    print(alart)
-    return print()
+    return print(millrate, alart)
 
 
 mainapp()
