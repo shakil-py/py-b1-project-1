@@ -18,7 +18,7 @@ market_cost = int(input("Pleasr enter foodMarket cost : "))
 
 
 def millrate():
-    millrate = market_cost/(member*3)
+    millrate = market_cost/(member*6)
     return millrate
 
 # --- Alart funtion---#
@@ -34,12 +34,12 @@ def alart():
 
 
 # --- Main App Funtion -----
-millrate = millrate()
+millrate= millrate()
 alart = alart()
 
 
 def mainapp():
-    return print(millrate, alart)
-
+    main= print(millrate, alart)
+    return main
 
 mainapp()

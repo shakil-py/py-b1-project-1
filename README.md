@@ -12,7 +12,7 @@ this project is a simple manual Ai project
 ##############
 Softwear featcher :
 this softwear provide mill cost predection
-this softwear provite better food cicle
+this softwear provite better food cycle
 this softwear provite aleart in hight mill cost .
 this softwear provite every day ditail all of cost.
 
