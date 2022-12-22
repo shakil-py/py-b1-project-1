@@ -20,7 +20,6 @@ food_list = ["beef", "chicken", "fish", "egg"]
 def foodcycle(food_list, food_item):
     while True:
         for item in food_list:
-            # print(item)
             if item == food_item:
                 print(food_list[food_list.index(item) + 1])
         break
