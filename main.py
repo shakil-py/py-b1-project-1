@@ -21,7 +21,7 @@ food_list = ["beef", "chicken", "fish", "egg"]
 def foodcycle():
     for i in range(len(food_list)):
         if food_list[i] == food_item:
-            next_item = print("Next Market item is "+ food_list[i+1])
+            next_item = print("Next Market item is " + food_list[i+1])
             return next_item
 
  # ---- Oparetion funtion
