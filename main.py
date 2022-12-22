@@ -1,5 +1,4 @@
 # -----------------------Input Data funtion-------------------------
-
 food_item = input(
     "Please Enter Today Market item (like Chicken , Beef or fish) : ")
 member = int(input("Please Enter amount of today Members : "))
@@ -18,13 +17,14 @@ food_list = ["beef", "chicken", "fish", "egg"]
 # --------------------Other Funtion-----------------------------
 
 
-def foodcycle():
-    for i in range(len(food_list)):
-        if food_list[i] == food_item:
-            next_item = print("Next Market item is " + food_list[i+1])
-            return next_item
-
- # ---- Oparetion funtion
+def foodcycle(food_list, food_item):
+    while True:
+        for item in food_list:
+            # print(item)
+            if item == food_item:
+                print(food_list[food_list.index(item) + 1])
+        break
+# ---- Oparetion funtion
 
 
 def millrate():
@@ -48,7 +48,7 @@ def alart():
 # --- Main App Funtion -----
 millrate = millrate()
 alart = alart()
-foodcycle = foodcycle()
+foodcycle = foodcycle(food_list, food_item)
 
 
 def mainapp():
