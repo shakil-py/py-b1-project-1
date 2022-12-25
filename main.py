@@ -34,7 +34,7 @@ def millrate():
 
 
 def alart():
-    if millrate > 20:
+    if millrate >14:
         str1 = print("Maneger your millrate is high to Previouse day :( !!!")
         return str1
     elif millrate <= 20:
