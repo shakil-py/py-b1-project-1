@@ -23,12 +23,12 @@ def foodcycle(food_list, food_item):
         try:
             for item in food_list:
                 if item == food_item:
-                    print(food_list[food_list.index(item) + 1])
+                    print("Next food Market item is " + food_list[food_list.index(item) + 1])
         except IndexError:
             print("Next food Market item is Beef")
 
         break
-    
+
 
 # ---- Oparetion funtion
 
@@ -41,7 +41,7 @@ def millrate():
 
 
 def alart():
-    if millrate > 14:
+    if millrate > 13:
         str1 = print("Maneger your millrate is high to Previouse day :( !!!")
         return str1
     elif millrate <= 20:
@@ -58,7 +58,7 @@ foodcycle = foodcycle(food_list, food_item)
 
 
 def mainapp():
-    main = print(millrate,alart,foodcycle)
+    main = print(millrate, alart, foodcycle)
     return main
 
 
