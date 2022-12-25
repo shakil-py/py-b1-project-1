@@ -1,6 +1,6 @@
 # -----------------------Input Data funtion-------------------------
 food_item = input(
-    "Please Enter Today Market item (like Chicken , Beef or fish) : ")
+    "Please Enter Today Market item (like chicken , beef ,fish or egg # must use lowercase) : ")
 member = int(input("Please Enter amount of today Members : "))
 market_cost = int(input("Pleasr enter foodMarket cost : "))
 # food_item = set(input("Enter Today Food item : "))
@@ -18,7 +18,7 @@ food_list = ["beef", "chicken", "fish", "egg"]
 
 
 def foodcycle(food_list, food_item):
-    item = 0
+
     while True:
         try:
             for item in food_list:
@@ -26,8 +26,10 @@ def foodcycle(food_list, food_item):
                     print(food_list[food_list.index(item) + 1])
         except IndexError:
             print("Next food Market item is Beef")
-                    
+
         break
+    
+
 # ---- Oparetion funtion
 
 
@@ -56,7 +58,7 @@ foodcycle = foodcycle(food_list, food_item)
 
 
 def mainapp():
-    main = print(millrate, alart, foodcycle)
+    main = print(millrate,alart,foodcycle)
     return main
 
 
