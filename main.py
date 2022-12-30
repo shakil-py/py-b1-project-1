@@ -22,7 +22,7 @@ def foodcycle(food_list, food_item):
     while True:
         try:
             for item in food_list:
-                if item == food_item:
+                if item == food_item.lower():
                     print("Next food Market item is " + food_list[food_list.index(item) + 1])
         except IndexError:
             print("Next food Market item is Beef")
