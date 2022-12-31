@@ -17,7 +17,7 @@ food_list = ["beef", "chicken", "fish", "egg"]
 # --------------------Other Funtion-----------------------------
 
 
-def foodcycle(food_list, food_item):
+def foodcycle(*args):
 
     while True:
         try:
