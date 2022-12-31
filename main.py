@@ -58,7 +58,7 @@ foodcycle = foodcycle(food_list, food_item)
 
 
 def mainapp():
-    main = print(millrate, alart, foodcycle)
+    main = print(millrate), alart, foodcycle
     return main
 
 
